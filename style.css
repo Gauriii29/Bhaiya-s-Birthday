@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero h2 {
+    color: #ffd700;
+    margin: 10px 0;
+}
+
+.hero button {
+    margin: 15px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #ffd700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #ffea8a;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px 20px;
+}
+
+/* SURPRISE */
+#surprise {
+    background: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* METER */
+.meter .bar {
+    width: 80%;
+    height: 25px;
+    background: #555;
+    border-radius: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#progress {
+    height: 100%;
+    width: 0%;
+    background: #ffd700;
+    transition: width 0.4s;
+}
+
+/* GALLERY */
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    width: 230px;
+    height: 230px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 3px solid #ffd700;
+}
+
+/* SECRET */
+.secret p {
+    cursor: pointer;
+    font-style: italic;
+}
+
+#secretText {
+    display: block;
+    margin-top: 15px;
+    color: #ffd700;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    font-size: 0.9rem;
+}
+
+.hidden {
+    display: none;
+}
